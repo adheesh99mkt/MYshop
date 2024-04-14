@@ -1,12 +1,13 @@
 {
   "name": "ecommerce",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
     "start": "node backend/app.js",
-    "dev":"SET NODE_ENV=DEVELOPMENT& nodemon backend/app.js",
-    "prod":"SET NODE_ENV=PRODUCTION& nodemon backend/app.js"
+    "dev": "SET NODE_ENV=DEVELOPMENT& nodemon backend/app.js",
+    "prod": "SET NODE_ENV=PRODUCTION& nodemon backend/app.js"
   },
   "author": "Adheesh K V",
   "license": "ISC",
